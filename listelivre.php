@@ -35,7 +35,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Styles -->
-  <link rel="stylesheet" href="style.css">
+  <?php
+  $base_url = '/3èmeBI/exo3';
+  ?>
+  <link rel="stylesheet" href="<?php echo $base_url; ?>/style.css">
 </head>
 <body>
   <header class="site-header" role="banner">
